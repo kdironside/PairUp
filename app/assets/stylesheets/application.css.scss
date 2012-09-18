@@ -1,0 +1,125 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require bootstrap_and_overrides
+ *= require_self
+ *= require_tree .
+*/
+
+/* PairUp Name */
+.navbar .brand {
+	font-family: Capitals,"American Typewriter",Palatino Linotype,Palatino,Georgia,serif;
+  font-size: 28px;
+	font-weight: bold;
+  padding: 14px 20px 12px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* navigation items position on the nav bar */
+.navbar .nav  {
+  display: block;
+  float: right;
+	margin-right: 50px;
+}
+
+/* navigation items */
+.navbar .nav > li > a {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 19px 15px 11px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inner {
+  box-shadow: none;
+}
+
+/* pad body so nav bar doesn't cover the top up */
+body {
+	height: auto;
+	min-height: 100%;
+	padding-top: 60px; 
+}
+
+/* top is for the section wrapping the jumbo text */
+#top {
+	border-top: 2px solid #404040;
+	border-bottom: 2px solid #404040;
+}
+.masthead {
+	color: 404040;
+	margin-bottom: 72px;
+	padding-top: 36px;
+}
+
+.jumbotron {
+	position: relative;
+}
+
+.masthead h1 {
+  margin-top: 28px;
+  margin-bottom: 18px;
+	color: #000000;
+}
+
+.masthead h1, .masthead p {
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 76px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-bottom: 9px;
+}
+
+.jumbotron p {
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+
+/* how it works section of home page */
+#howitworks {
+	text-align: center;
+  color: #5E99FF;
+	font-family: "American Typewriter",Palatino Linotype,Palatino,Georgia,serif;
+	font-size: 28px;
+  margin-bottom: 22px;
+}
+#howitworkstext {
+  margin-bottom: 22px;
+}
+
+/* content is bordered text boxes within the grid system */
+.content {
+  background-color: white;  
+  border: 1px solid #CCCCCC;
+  padding: 20px 20px 20px 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+/* form labels */
+label {
+	color: #404040;
+}
+
+/* custom footer for all pages */
+#footer {
+	color: black;
+  padding: 14px 15px 15px;
+  margin-top: 20;
+  text-align: right;
+  background-color: #E3E3E3;
+  border-top: 1px solid #CCCCCC;
+}
