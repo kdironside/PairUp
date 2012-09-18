@@ -8,4 +8,6 @@ Uses twitter-bootstrap-rails:
 	
 Uses Devise for authentication and CanCan for authorization. 
 
-Front-end design obviously lacking in style, but shows how to set up responsive Twitter Bootstrap. Roll your own!
+Front-end design obviously lacking in style. Roll your own!
+
+
